@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Representation</title>
+    <link rel="stylesheet" href="styles6.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="container mx-auto">
+            <div class="logo">
+                <img src="logo.png" alt="Green Tech Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="logout.html">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <section id="roadBlockSection">
+            <h2>Road Blocks in Various States</h2>
+            <div class="chart-container">
+                <canvas id="barChart"></canvas>
+            </div>
+            <div class="table-container">
+                <h3>Table for Road Blocks Data</h3>
+                <table id="roadBlockTable">
+                </table>
+            </div>
+        </section>
+
+        <section id="healthImpactSection">
+            <h2>Health Impacts and Percentages</h2>
+            <div class="chart-container">
+                <canvas id="doughnutChart"></canvas>
+            </div>
+            <div class="table-container">
+                <h3>Table for Health Impact Data</h3>
+                <table id="healthImpactTable">
+                </table>
+            </div>
+        </section>
+
+        <section id="humanDiseasesSection">
+            <h2>Human Diseases by States</h2>
+            <div class="chart-container">
+                <canvas id="polarAreaChart"></canvas>
+            </div>
+            <div class="table-container">
+                <h3>Table for Human Diseases Data</h3>
+                <table id="humanDiseasesTable">
+                </table>
+            </div>
+        </section>
+
+        <section id="animalDiseasesSection">
+            <h2>Local Animal Diseases</h2>
+            <div class="chart-container">
+                <canvas id="bubbleChart"></canvas>
+            </div>
+            <div class="table-container">
+                <h3>Table for Local Animal Diseases Data</h3>
+                <table id="animalDiseasesTable">
+                </table>
+            </div>
+        </section>
+
+        <section id="animalImpactSection">
+            <h2>Animal Impacts by States</h2>
+            <div class="chart-container">
+                <canvas id="scatterChart"></canvas>
+            </div>
+            <div class="table-container">
+                <h3>Table for Animal Impact Data</h3>
+                <table id="animalImpactTable">
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script src="script1.js"></script>
+</body>
+
+</html>

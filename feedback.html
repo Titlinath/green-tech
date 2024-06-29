@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Tech Recycling Info</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles8.css">
+</head>
+<body class="bg-center" style="background-image: url('https://i.pinimg.com/originals/18/60/8b/18608be8bfc105a635ade2639c0bdf84.gif');">
+    <div class="container mx-auto p-4">
+        <header class="bg-green-700 text-white p-4 rounded-md shadow-lg mb-4">
+            <h1 class="text-4xl font-bold">Welcome to Green Tech Recycling Info</h1>
+        </header>
+
+        <main class="bg-white p-6 rounded-md shadow-lg mb-4">
+            <h2 class="text-3xl text-green-700 font-semibold">Share Your Local Environmental Data</h2>
+            <p class="mb-4">
+                We invite you to contribute valuable information about your local environment. Your insights can help others understand regional challenges and successes in waste management and recycling. Here’s how you can get involved:
+            </p>
+            <ul class="list-disc list-inside mb-4">
+                <li><strong>Submit Environmental Data</strong>: Share data on local recycling rates, waste management statistics, and other environmental metrics.</li>
+                <li><strong>Success Stories</strong>: Have you or your community achieved significant milestones in recycling or waste reduction? Share your story!</li>
+            </ul>
+
+            <h3 class="text-2xl text-green-700 font-semibold mb-2">How to Contribute</h3>
+            <p class="mb-4">Contributing to Green Tech Recycling Info is easy and rewarding. Follow these simple steps to share your data and stories:</p>
+            <ol class="list-decimal list-inside mb-4">
+                <li><strong>Create an Account</strong>: Sign up to join our community of eco-conscious individuals.</li>
+                <li><strong>Submit Your Content</strong>: Use our user-friendly form to upload your data and success stories. You can include text, images, and even videos.</li>
+                <li><strong>Get Featured</strong>: Your submissions could be featured on our homepage or social media channels, showcasing your contributions to a wider audience.</li>
+            </ol>
+
+            <h2 class="text-3xl text-green-700 font-semibold mb-2">Submit Your Data and Stories</h2>
+            <form action="submit_content.php" method="post" enctype="multipart/form-data" id="submissionForm">
+                <div class="form-group mb-4">
+                    <label for="name" class="block text-lg font-medium text-green-700">Name:</label>
+                    <input type="text" id="name" name="name" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="email" class="block text-lg font-medium text-green-700">Email:</label>
+                    <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <div class="form-group mb-4">
+                    <label for="content" class="block text-lg font-medium text-green-700">Your Data/Story:</label>
+                    <textarea id="content" name="content" required class="w-full p-2 border border-gray-300 rounded-md shadow-sm"></textarea>
+                </div>
+                <div class="form-group mb-4">
+                    <label for="file" class="block text-lg font-medium text-green-700">Upload Images/Videos:</label>
+                    <input type="file" id="file" name="file" multiple class="w-full p-2 border border-gray-300 rounded-md shadow-sm">
+                </div>
+                <button type="submit" class="bg-green-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-green-800">Submit</button>
+            </form>
+
+            <div class="mt-4">
+                <h2 class="text-2xl text-green-700 font-semibold mb-2">Donate to Support Us</h2>
+                <p>If you wish to support our mission, consider making a donation. Your contributions help us maintain and improve our platform.</p>
+                <a href="donate.html" class="bg-green-700 text-white px-4 py-2 rounded-md shadow-lg hover:bg-green-800 inline-block mt-2">Donate Now</a>
+            </div>
+        </main>
+
+        <section class="bg-green-200 p-6 rounded-md shadow-lg mb-4">
+            <h2 class="text-3xl text-green-700 font-semibold mb-2">Recent Contributions</h2>
+            <div id="recent-contributions">
+                <p><strong>City Bangalore’s Plastic-Free Initiative</strong>: Learn how City <a href="https://www.sciencedirect.com/science/article/pii/S2772427121000048" target="_blank"><u>Bangalore</u></a> reduced plastic waste by 40% in one year.</p>
+
+            <p><strong>Innovative Composting "Vapra odor-free home composter" in India </strong>: <a href="https://thebetterindia.com/343673/hyderabad-pavani-lolla-innovates-odor-free-home-composter-for-kitchen-waste/" target="_blank"><i> Discover how Woman’s Innovative Composter Turns Kitchen Waste Into Manure in Just 7 days.</i></a></p>
+
+            <p><strong>Youth-Led Recycling Programs</strong>: Read about how students in <b><a href="https://www.scsengineers.com/successful-recycling-in-schools-these-kids-deliver/" target="_blank">Madison Metropolitan School</b></a> started a successful recycling program.</p>
+            </div>
+        </section>
+
+        <footer class="bg-green-700 text-white p-4 rounded-md shadow-lg">
+            <h2 class="text-2xl font-semibold">Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to our support team at <a href="mailto:support@greentechrecyclinginfo.com" class="underline">support@greentechrecyclinginfo.com</a>.</p>
+            <a href="thank_you.html" class="cta block mt-4 bg-white text-green-700 px-4 py-2 rounded-md shadow-lg hover:bg-green-50">Join Us and Start Sharing</a>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

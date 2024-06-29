@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon Footprint Calculator</title>
+  <link rel="stylesheet" href="carbonfootprint.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Carbon Footprint Calculator</h1>
+    <form id="carbonFootprintForm">
+      <div class="form-group">
+        <label for="country">Select Your Country:</label>
+        <select id="country" name="country" required>
+          <option value="India">India</option>
+          <option value="USA">USA</option>
+          <option value="China">China</option>
+          <option value="Germany">Germany</option>
+          <option value="Brazil">Brazil</option>
+          <option value="UK">UK</option>
+          <option value="Japan">Japan</option>
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="population">Population (in millions):</label>
+        <input type="number" id="population" name="population" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="emissions">Annual CO2 Emissions per Person (in tons):</label>
+        <input type="number" id="emissions" name="emissions" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="energy">Annual Energy Consumption (in kWh per person):</label>
+        <input type="number" id="energy" name="energy" step="0.01" required>
+      </div>
+      <div class="form-group">
+        <label for="transport">Annual Transportation (in km per person):</label>
+        <input type="number" id="transport" name="transport" step="0.01" required>
+      </div>
+      <button type="submit">Calculate Carbon Footprint</button>
+    </form>
+    <div class="results" id="results"></div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Green Tech - Recycling Info Portal. All Rights Reserved.</p>
+  </footer>
+  <script src="carbonfootprint.js"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Green Tech</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .background-image {
+            background-image: url('https://i.pinimg.com/736x/e2/aa/e3/e2aae31d76cf2c6315095158284f23a6.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .nav-button {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .nav-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        .grid-item {
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .grid-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    </style>
+</head>
+<body class="background-image text-white">
+    <nav class="navbar bg-green-700 bg-opacity-75 p-4">
+        <div class="logo text-2xl font-bold mb-2">Green Tech</div>
+        <ul class="nav-links flex space-x-4">
+            <li><a href="quiz.html" class="nav-button bg-green-500 text-white py-2 px-4 rounded shadow hover:bg-green-400">Quiz</a></li>
+            <li><a href="profile.html" class="nav-button bg-green-500 text-white py-2 px-4 rounded shadow hover:bg-green-400">Profile</a></li>
+            <li><a href="feedback.html" class="nav-button bg-green-500 text-white py-2 px-4 rounded shadow hover:bg-green-400">Feedback</a></li>
+            <li><a href="carbon.html" class="nav-button bg-green-500 text-white py-2 px-4 rounded shadow hover:bg-green-400">Carbon Footprint Calculator</a></li>
+            <li><a href="logout.html" class="nav-button bg-red-500 text-white py-2 px-4 rounded shadow hover:bg-red-400">Logout</a></li>
+        </ul>
+    </nav>
+    <section class="dashboard p-8 bg-opacity-75">
+        <h1 class="text-4xl font-bold mb-4">Welcome to Green Tech Recycling Portal</h1>
+        <p class="text-lg mb-8">Your one-stop platform for all things recycling and green technology.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid-item bg-green-600 p-6 rounded shadow-lg">
+                <h2 class="text-2xl font-bold mb-2">Recycling Articles</h2>
+                <p class="mb-4">Read the latest articles on recycling techniques and green tech advancements.</p>
+                <a href="article.html" class="bg-white text-green-600 py-2 px-4 rounded shadow hover:bg-gray-200">Explore Articles</a>
+            </div>
+            <div class="grid-item bg-green-500 p-6 rounded shadow-lg">
+                <h2 class="text-2xl font-bold mb-2">Recycling Tips</h2>
+                <p class="mb-4">Discover practical tips to improve your recycling habits and reduce waste.</p>
+                <a href="Tips.html" class="bg-white text-green-500 py-2 px-4 rounded shadow hover:bg-gray-200">Get Tips</a>
+            </div>
+            <div class="grid-item bg-green-700 p-6 rounded shadow-lg">
+                <h2 class="text-2xl font-bold mb-2">Recycling Resources</h2>
+                <p class="mb-4">Access a wide range of resources including guides, tools, and directories.</p>
+                <a href="chart.html" class="bg-white text-green-700 py-2 px-4 rounded shadow hover:bg-gray-200">View Resources</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-green-900 bg-opacity-75 p-4 text-center mt-auto">
+        <p>&copy; 2024 Green Tech. All rights reserved.</p>
+    </footer>
+</body>
+</html>

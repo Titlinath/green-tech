@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://i.pinimg.com/originals/5c/f7/29/5cf72955ad69a8063f7dbc375e1350a2.gif'); /* URL to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+header {
+    background-color: rgba(34, 139, 34, 0.8); /* Transparent background for the navbar */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.logout-message {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logout-message h2 {
+    margin-top: 0;
+    color: #ff0303;
+}
+
+.logout-message p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.buttons .button {
+    background-color: #228b22;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .button:hover {
+    background-color: #1e7b1e;
+}
+
+footer {
+    background-color: rgba(34, 139, 34, 0.8); /* Transparent background for the footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #ff0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Colorful Labels */
+label {
+    color: #ff6347; /* Tomato */
+    font-weight: bold;
+}
+
+label:nth-of-type(2) {
+    color: #1e90ff; /* DodgerBlue */
+}
+
+label:nth-of-type(3) {
+    color: #32cd32; /* LimeGreen */
+}
+
+label:nth-of-type(4) {
+    color: #ff1493; /* DeepPink */
+}
+
+label:nth-of-type(5) {
+    color: #ffa500; /* Orange */
+}
+
+label:nth-of-type(6) {
+    color: #6a5acd; /* SlateBlue */
+}

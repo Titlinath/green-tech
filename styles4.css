@@ -1,0 +1,47 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/38/23/0a/38230afef283b28969c048da6134a3e9.gif'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bookman Old Style', serif;
+}
+
+.container {
+    background-color: rgba(230, 242, 232, 0.9); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #48bb78; 
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 1rem;
+    background-color: #48bb78; 
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #38a169; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px); 
+}

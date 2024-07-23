@@ -6,8 +6,7 @@
 This project was created for Hack4Bengal 3.0. It's a comprehensive platform aimed at promoting sustainable practices through recycling tips, awareness campaigns, and community stories.
 
 ## Preview of Our Homepage ->
-![home_page](![Screenshot 2024-06-30 093044](https://github.com/Titlinath/green-tech/assets/127376712/2e3f63da-d4c4-4525-b87e-5263e93fc043)
-)
+![home_page]()
 
 ## Demo Video of Our Project ->
 [Click here to watch the video](https://drive.google.com/file/d/1hsl-hghVc3Lowub3ocQXynWNpImSWphL/view?usp=drive_link)
